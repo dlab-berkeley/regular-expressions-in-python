@@ -1,0 +1,452 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+% 'BasicFonts': class PDFDictionary 
+1 0 obj
+% The standard fonts dictionary
+<< /F1 2 0 R
+ /F2 3 0 R
+ /F3 4 0 R >>
+endobj
+% 'F1': class PDFType1Font 
+2 0 obj
+% Font Helvetica
+<< /BaseFont /Helvetica
+ /Encoding /WinAnsiEncoding
+ /Name /F1
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F2': class PDFType1Font 
+3 0 obj
+% Font Helvetica-Bold
+<< /BaseFont /Helvetica-Bold
+ /Encoding /WinAnsiEncoding
+ /Name /F2
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'F3': class PDFType1Font 
+4 0 obj
+% Font Courier
+<< /BaseFont /Courier
+ /Encoding /WinAnsiEncoding
+ /Name /F3
+ /Subtype /Type1
+ /Type /Font >>
+endobj
+% 'Annot.NUMBER1': class PDFDictionary 
+5 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (http://docs.python.org/library/re.html) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 309.0236
+ 144.5454
+ 468.5336
+ 156.5454 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Annot.NUMBER2': class PDFDictionary 
+6 0 obj
+<< /A << /S /URI
+ /Type /Action
+ /URI (https://github.com/tartley/python-regex-cheatsheet) >>
+ /Border [ 0
+ 0
+ 0 ]
+ /Rect [ 309.0236
+ 126.5454
+ 531.3536
+ 138.5454 ]
+ /Subtype /Link
+ /Type /Annot >>
+endobj
+% 'Page1': class PDFPage 
+7 0 obj
+% Page dictionary
+<< /Annots [ 5 0 R
+ 6 0 R ]
+ /Contents 11 0 R
+ /MediaBox [ 0
+ 0
+ 595.2756
+ 841.8898 ]
+ /Parent 10 0 R
+ /Resources << /Font 1 0 R
+ /ProcSet [ /PDF
+ /Text
+ /ImageB
+ /ImageC
+ /ImageI ] >>
+ /Rotate 0
+ /Trans <<  >>
+ /Type /Page >>
+endobj
+% 'R8': class PDFCatalog 
+8 0 obj
+% Document Root
+<< /Outlines 12 0 R
+ /PageLabels 13 0 R
+ /PageMode /UseNone
+ /Pages 10 0 R
+ /Type /Catalog >>
+endobj
+% 'R9': class PDFInfo 
+9 0 obj
+<< /Author ()
+ /CreationDate (D:20150330120736+00'00')
+ /Creator (\(unspecified\))
+ /Keywords ()
+ /Producer (ReportLab PDF Library - www.reportlab.com)
+ /Subject (\(unspecified\))
+ /Title (Python 2.7 Regular Expressions) >>
+endobj
+% 'R10': class PDFPages 
+10 0 obj
+% page tree
+<< /Count 1
+ /Kids [ 7 0 R ]
+ /Type /Pages >>
+endobj
+% 'R11': class PDFStream 
+11 0 obj
+% page stream
+<< /Length 10288 >>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 34.34646 717.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 28 Tm /F2 20 Tf 24 TL 35.37276 0 Td (Python 2.7 Regular) Tj T* 31.11 0 Td (Expressions) Tj T* -66.48276 0 Td ET
+Q
+Q
+q
+1 0 0 1 34.34646 683.0236 cm
+q
+BT 1 0 0 1 0 14 Tm 3.365102 Tw 12 TL /F1 10 Tf 0 0 0 rg (Non-special chars match themselves. Exceptions are) Tj T* 0 Tw (special characters:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 34.34646 599.7308 cm
+q
+q
+.774617 0 0 .774617 0 0 cm
+q
+1 0 0 1 6.6 8.520338 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 324 96 re B*
+Q
+q
+BT 1 0 0 1 0 74 Tm 12 TL /F3 10 Tf 0 0 0 rg (\\       Escape special char or start a sequence.) Tj T* (.       Match any char except newline, see re.DOTALL) Tj T* (^       Match start of the string, see re.MULTILINE) Tj T* ($       Match end of the string, see re.MULTILINE) Tj T* ([]      Enclose a set of matchable chars) Tj T* (R|S     Match either regex R or regex S.) Tj T* (\(\)      Create capture group, ) Tj (&) Tj ( indicate precedence) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 34.34646 579.7308 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (After ') Tj /F3 10 Tf ([) Tj /F1 10 Tf (', enclose a set, the only special chars are:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 34.34646 527.9676 cm
+q
+q
+.889497 0 0 .889497 0 0 cm
+q
+1 0 0 1 6.6 7.419925 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 282 48 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F3 10 Tf 12 TL (]   End the set, if not the 1st char) Tj T* (-   A range, eg. a-c matches a, b or c) Tj T* (^   Negate the set only if it is the 1st char) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 34.34646 507.9676 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Quantifiers \(append ') Tj /F3 10 Tf (?) Tj /F1 10 Tf (' for non-greedy\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 34.34646 441.0931 cm
+q
+q
+.804296 0 0 .804296 0 0 cm
+q
+1 0 0 1 6.6 8.205934 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 312 72 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F3 10 Tf 12 TL ({m}     Exactly m repetitions) Tj T* ({m,n}   From m \(default 0\) to n \(default infinity\)) Tj T* (*       0 or more. Same as {,}) Tj T* (+       1 or more. Same as {1,}) Tj T* (?       0 or 1. Same as {,1}) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 34.34646 421.0931 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Special sequences:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 34.34646 271.5844 cm
+q
+q
+.83634 0 0 .83634 0 0 cm
+q
+1 0 0 1 6.6 7.89153 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 300 168 re B*
+Q
+q
+BT 1 0 0 1 0 146 Tm 12 TL /F3 10 Tf 0 0 0 rg (\\A  Start of string) Tj T* (\\b  Match empty string at word \(\\w+\) boundary) Tj T* (\\B  Match empty string not at word boundary) Tj T* (\\d  Digit) Tj T* (\\D  Non-digit) Tj T* (\\s  Whitespace [ \\t\\n\\r\\f\\v], see LOCALE,UNICODE) Tj T* (\\S  Non-whitespace) Tj T* (\\w  Alphanumeric: [0-9a-zA-Z_], see LOCALE) Tj T* (\\W  Non-alphanumeric) Tj T* (\\Z  End of string) Tj T* (\\g) Tj (<) Tj (id) Tj (>) Tj (  Match prev named or numbered group,) Tj T* (        ') Tj (<) Tj (' ) Tj (&) Tj ( ') Tj (>) Tj (' are literal, e.g. \\g) Tj (<) Tj (0) Tj (>) Tj  T* (        or \\g) Tj (<) Tj (name) Tj (>) Tj ( \(not \\g0 or \\gname\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 34.34646 227.5844 cm
+q
+BT 1 0 0 1 0 26 Tm 1.369359 Tw 12 TL /F1 10 Tf 0 0 0 rg (Special character escapes are much like those already) Tj T* 0 Tw 2.485689 Tw (escaped in Python string literals. Hence regex ') Tj /F3 10 Tf (\\n) Tj /F1 10 Tf (' is) Tj T* 0 Tw (same as regex ') Tj /F3 10 Tf (\\\\n) Tj /F1 10 Tf (':) Tj T* ET
+Q
+Q
+q
+1 0 0 1 34.34646 88.11184 cm
+q
+q
+.83634 0 0 .83634 0 0 cm
+q
+1 0 0 1 6.6 7.89153 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 300 156 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 134 Tm /F3 10 Tf 12 TL (\\a  ASCII Bell \(BEL\)) Tj T* (\\f  ASCII Formfeed) Tj T* (\\n  ASCII Linefeed) Tj T* (\\r  ASCII Carriage return) Tj T* (\\t  ASCII Tab) Tj T* (\\v  ASCII Vertical tab) Tj T* (\\\\  A single backslash) Tj T* (\\xHH   Two digit hexadecimal character goes here) Tj T* (\\OOO   Three digit octal char \(or just use an) Tj T* (       initial zero, e.g. \\0, \\09\)) Tj T* (\\DD    Decimal number 1 to 99, match) Tj T* (       previous numbered group) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 309.0236 753.0236 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Extensions. Do not cause grouping, except ') Tj /F3 10 Tf (P) Tj (<) Tj (name) Tj (>) Tj /F1 10 Tf (':) Tj T* ET
+Q
+Q
+q
+1 0 0 1 309.0236 652.1282 cm
+q
+q
+.697413 0 0 .697413 0 0 cm
+q
+1 0 0 1 6.6 9.463548 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 360 132 re B*
+Q
+q
+BT 1 0 0 1 0 110 Tm 12 TL /F3 10 Tf 0 0 0 rg (\(?iLmsux\)     Match empty string, sets re.X flags) Tj T* (\(?:...\)       Non-capturing version of regular parens) Tj T* (\(?P) Tj (<) Tj (name) Tj (>) Tj (...\) Create a named capturing group.) Tj T* (\(?P=name\)     Match whatever matched prev named group) Tj T* (\(?#...\)       A comment; ignored.) Tj T* (\(?=...\)       Lookahead assertion, match without consuming) Tj T* (\(?!...\)       Negative lookahead assertion) Tj T* (\(?) Tj (<) Tj (=...\)      Lookbehind assertion, match if preceded) Tj T* (\(?) Tj (<) Tj (!...\)      Negative lookbehind assertion) Tj T* (\(?\(id\)y|n\)    Match 'y' if group 'id' matched, else 'n') Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 309.0236 632.1282 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Flags for re.compile\(\), etc. Combine with ) Tj /F3 10 Tf ('|') Tj /F1 10 Tf (:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 309.0236 563.401 cm
+q
+q
+.624766 0 0 .624766 0 0 cm
+q
+1 0 0 1 6.6 10.56396 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 402 96 re B*
+Q
+q
+0 0 0 rg
+BT 1 0 0 1 0 74 Tm /F3 10 Tf 12 TL (re.I == re.IGNORECASE   Ignore case) Tj T* (re.L == re.LOCALE       Make \\w, \\b, and \\s locale dependent) Tj T* (re.M == re.MULTILINE    Multiline) Tj T* (re.S == re.DOTALL       Dot matches all \(including newline\)) Tj T* (re.U == re.UNICODE      Make \\w, \\b, \\d, and \\s unicode dependent) Tj T* (re.X == re.VERBOSE      Verbose \(unescaped whitespace in pattern) Tj T* (                        is ignored, and '#' marks comment lines\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 309.0236 543.401 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Module level functions:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 309.0236 445.4926 cm
+q
+q
+.674988 0 0 .674988 0 0 cm
+q
+1 0 0 1 6.6 9.777952 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 372 132 re B*
+Q
+q
+BT 1 0 0 1 0 110 Tm 12 TL /F3 10 Tf 0 0 0 rg (compile\(pattern[, flags]\) -) Tj (>) Tj ( RegexObject) Tj T* (match\(pattern, string[, flags]\) -) Tj (>) Tj ( MatchObject) Tj T* (search\(pattner, string[, flags]\) -) Tj (>) Tj ( MatchObject) Tj T* (findall\(pattern, string[, flags]\) -) Tj (>) Tj ( list of strings) Tj T* (finditer\(pattern, string[, flags]\) -) Tj (>) Tj ( iter of MatchObjects) Tj T* (split\(pattern, string[, maxsplit, flags]\) -) Tj (>) Tj ( list of strings) Tj T* (sub\(pattern, repl, string[, count, flags]\) -) Tj (>) Tj ( string) Tj T* (subn\(pattern, repl, string[, count, flags]\) -) Tj (>) Tj ( \(string, int\)) Tj T* (escape\(string\) -) Tj (>) Tj ( string) Tj T* (purge\(\) # the re cache) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 309.0236 425.4926 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (RegexObjects \(returned from ) Tj /F3 10 Tf (compile\(\)) Tj /F1 10 Tf (\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 309.0236 312.7484 cm
+q
+q
+.721379 0 0 .721379 0 0 cm
+q
+1 0 0 1 6.6 9.149145 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 348 144 re B*
+Q
+q
+BT 1 0 0 1 0 122 Tm 12 TL /F3 10 Tf 0 0 0 rg (.match\(string[, pos, endpos]\) -) Tj (>) Tj ( MatchObject) Tj T* (.search\(string[, pos, endpos]\) -) Tj (>) Tj ( MatchObject) Tj T* (.findall\(string[, pos, endpos]\) -) Tj (>) Tj ( list of strings) Tj T* (.finditer\(string[, pos, endpos]\) -) Tj (>) Tj ( iter of MatchObjects) Tj T* (.split\(string[, maxsplit]\) -) Tj (>) Tj ( list of strings) Tj T* (.sub\(repl, string[, count]\) -) Tj (>) Tj ( string) Tj T* (.subn\(repl, string[, count]\) -) Tj (>) Tj ( \(string, int\)) Tj T* (.flags      # int, Passed to compile\(\)) Tj T* (.groups     # int, Number of capturing groups) Tj T* (.groupindex # {}, Maps group names to ints) Tj T* (.pattern    # string, Passed to compile\(\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 309.0236 292.7484 cm
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (MatchObjects \(returned from ) Tj /F3 10 Tf (match\(\) ) Tj /F1 10 Tf (and ) Tj /F3 10 Tf (search\(\)) Tj /F1 10 Tf (\):) Tj T* ET
+Q
+Q
+q
+1 0 0 1 309.0236 175.7954 cm
+q
+q
+.64393 0 0 .64393 0 0 cm
+q
+1 0 0 1 6.6 10.24956 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 390 168 re B*
+Q
+q
+BT 1 0 0 1 0 146 Tm 12 TL /F3 10 Tf 0 0 0 rg (.expand\(template\) -) Tj (>) Tj ( string, Backslash ) Tj (&) Tj ( group expansion) Tj T* (.group\([group1...]\) -) Tj (>) Tj ( string or tuple of strings, 1 per arg) Tj T* (.groups\([default]\) -) Tj (>) Tj ( tuple of all groups, non-matching=default) Tj T* (.groupdict\([default]\) -) Tj (>) Tj ( {}, Named groups, non-matching=default) Tj T* (.start\([group]\) -) Tj (>) Tj ( int, Start/end of substring match by group) Tj T* (.end\([group]\) -) Tj (>) Tj ( int, Group defaults to 0, the whole match) Tj T* (.span\([group]\) -) Tj (>) Tj ( tuple \(match.start\(group\), match.end\(group\)\)) Tj T* (.pos       int, Passed to search\(\) or match\(\)) Tj T* (.endpos    int, ") Tj T* (.lastindex int, Index of last matched capturing group) Tj T* (.lastgroup string, Name of last matched capturing group) Tj T* (.re        regex, As passed to search\(\) or match\(\)) Tj T* (.string    string, ") Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 309.0236 143.7954 cm
+q
+BT 1 0 0 1 0 14 Tm 13.83259 Tw 12 TL /F1 10 Tf 0 0 0 rg (Gleaned from the python 2.7 're' docs.) Tj T* 0 Tw 0 0 .501961 rg (http://docs.python.org/library/re.html) Tj T* ET
+Q
+Q
+q
+1 0 0 1 309.0236 113.7954 cm
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F1 10 Tf 0 0 .501961 rg (https://github.com/tartley/python-regex-cheatsheet) Tj T* 0 0 0 rg (Version: v0.3.3) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+% 'R12': class PDFOutlines 
+12 0 obj
+<< /Count 0
+ /Type /Outlines >>
+endobj
+% 'R13': class PDFPageLabels 
+13 0 obj
+% Document Root
+<< /Nums [ 0
+ 14 0 R ] >>
+endobj
+% 'R14': class PDFPageLabel 
+14 0 obj
+% None
+<< /S /D
+ /St 1 >>
+endobj
+xref
+0 15
+0000000000 65535 f
+0000000113 00000 n
+0000000233 00000 n
+0000000398 00000 n
+0000000573 00000 n
+0000000746 00000 n
+0000001002 00000 n
+0000001256 00000 n
+0000001563 00000 n
+0000001720 00000 n
+0000001994 00000 n
+0000002101 00000 n
+0000012491 00000 n
+0000012574 00000 n
+0000012667 00000 n
+trailer
+<< /ID 
+ % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
+ [(\232\3547\022|\352\300\226h\327\233\340\212\321\255I) (\232\3547\022|\352\300\226h\327\233\340\212\321\255I)] 
+
+ /Info 9 0 R
+ /Root 8 0 R
+ /Size 15 >>
+startxref
+12714
+%%EOF
